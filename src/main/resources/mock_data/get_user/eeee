@@ -1,0 +1,9 @@
+mappingHost: 127.0.0.1
+mappingParams:
+    - params:
+        id: 123
+      weight: 2
+    - params:
+        name: "zhangsan"
+      weight: 4
+response: '{"key12":"${random:id}","key2":"value2","count":3,"person":[{"id":1,"name":"张三"},{"id":2,"name":"李四"}],"object":{"id":1,"msg":"对象里的对象"}}'

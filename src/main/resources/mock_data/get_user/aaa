@@ -1,0 +1,11 @@
+mappingHost: 127.0.0.1
+timeout: 3000
+realUrl: http://www.baidu.com
+mappingParams:
+    - params:
+        id: 123
+      weight: 8
+    - params:
+        name: "zhangsan"
+      weight: 10
+response: '{"key11":"${random:id:6}","key2":"${random:str:10}","count":3,"person":[{"id":${hook:id}},"name":"张三"},{"id":2,"name":"李四"}],"object":{"id":1,"msg":"对象里的对象"}}'

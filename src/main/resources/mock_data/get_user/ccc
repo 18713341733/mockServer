@@ -1,0 +1,9 @@
+mappingHost: 127.0.0.1
+mappingParams:
+    - params:
+        id: 123
+      weight: 2
+    - params:
+        name: "lisi"
+      weight: 4
+response: 'CCCC'
